@@ -1,0 +1,38 @@
+.App {
+  /*background-color: #192635;*/
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+a:link{
+  color: #29609e;
+}
+
+a:visited{
+  color: #29609e;
+}
+
+a:hover{
+  color: #29609e;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #29609e;
+text-decoration: underline;
+}
