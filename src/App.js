@@ -46,7 +46,7 @@ class CityForm extends React.Component {
       (result) => {
         if(!result.hasOwnProperty('coord')){  // Checking for valid input
           this.setState({
-            message: 'City not found: '+this.state.city+'. Try typing \"City, Country\"'
+            message: 'City not found: '+this.state.city+'. Try typing "City, Country"'
           })
           return
         }
