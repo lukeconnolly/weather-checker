@@ -1,0 +1,18 @@
+provide a database schema describing how you would store the retrieved temperature and weather conditions for each city in a relational database.
+
+The schema of the database would depend on what we want to do with the data, but for the purposes of this assignment, I will assume that we just want to record all calls made to the system, filterable by city.
+
+-------------------------------
+all_calls
+-------------------------------
+id (PK)			number
+city_and_country 	varchar
+time_of_call		timestamp
+temperature_OWM		number
+temperature_DS		number
+condition_OWM		varchar
+condition_DS		varchar
+details_OWM		varchar
+-------------------------------
+
+If more information were to be saved (as there is a lot more available from the APIs), more tables could be used. Additionally, support for lookup by a city ID could be added, and then a city_id table could be used as a mapping.
