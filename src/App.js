@@ -8,8 +8,8 @@ import './App.css';
 import { Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap';
 
 /* Open Weather Map and Dark Sky keys. Put your keys here*/
-const OWM_KEY = '';
-const DS_KEY = '';
+const OWM_KEY = 'b5aa2cb48c912d58c17c0122cf3c3a06';
+const DS_KEY = '26236e034de724b12c00ccdb54e68999';
 
 /* The Form that takes the user's input and remembers things about the input, and its
 weather data*/
